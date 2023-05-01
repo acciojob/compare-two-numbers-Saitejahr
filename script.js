@@ -2,8 +2,4 @@
 const a =prompt("Enter a number a");
 const b =prompt("Enter a number b");
 
-if(a == b){
-	alert("true");
-}else{
-	alert("false");
-}
+alert(a === b);
